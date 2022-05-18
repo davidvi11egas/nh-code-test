@@ -1,3 +1,6 @@
+.container {
+    display: flex;;
+}
 .navbar {
     padding: 0.5em;
     background-color: #ffffff;
@@ -6,8 +9,9 @@
     padding: 0em;
 }
 .jumbotron {
-    /* color: white; */
-    /* padding: 5em; */
+    color: white;
+    padding: 5em;
+    height: 100%;
     background-image:url("./jumbotron.jpg");
     background-position: center;
     background-repeat: no-repeat;
