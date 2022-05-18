@@ -1,0 +1,15 @@
+.navbar {
+    padding: 0.5em;
+    background-color: #ffffff;
+}
+.container-fluid{
+    padding: 0em;
+}
+.jumbotron {
+    /* color: white; */
+    /* padding: 5em; */
+    background-image:url("./jumbotron.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
