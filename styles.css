@@ -1,23 +1,38 @@
-.container {
-    display: flex;;
+html,
+body {
+    overflow-x: hidden;
 }
 
-.navbar {
-    padding: 0.5em;
-    background-color: #ffffff;
+body {
+    position: relative;
+    display: block;
 }
-/* .container-fluid{
-    padding: 0em;
-} */
-.jumbotron {
-    color: white;
+
+.container {
     width: 100%;
-    /* padding: 10em; */
-    background-image:url("./jumbotron.jpg");
+}
+
+card {
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: green;
+}
+
+.jumbotron {
+    width: 100%;
+    background-image: url("./jumbotron.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
+
 .form {
     color: black;
 }
