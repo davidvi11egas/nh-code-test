@@ -1,19 +1,23 @@
 .container {
     display: flex;;
 }
+
 .navbar {
     padding: 0.5em;
     background-color: #ffffff;
 }
-.container-fluid{
+/* .container-fluid{
     padding: 0em;
-}
+} */
 .jumbotron {
     color: white;
-    padding: 5em;
-    height: 100%;
+    width: 100%;
+    /* padding: 10em; */
     background-image:url("./jumbotron.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+}
+.form {
+    color: black;
 }
