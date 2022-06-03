@@ -18,15 +18,17 @@ card {
 
 .navbar a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
-    background-color: green;
+    background-color: blue;
+    border-radius: 0.3ex;
 }
 
 .jumbotron {
     width: 100%;
-    background-image: url("./jumbotron.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/11/21/00/bulldog-3013251_1280.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
