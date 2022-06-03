@@ -6,13 +6,11 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover {
-    background-color: #0D6EFD;
-    color: white;
-    border-radius: 2px;
+    color: yellow;
 }
 
 .container {
@@ -34,4 +32,8 @@ a:hover {
 
 .form {
     color: black;
+}
+
+#logo {
+    color: white;
 }
