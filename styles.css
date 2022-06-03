@@ -1,6 +1,7 @@
 html,
 body {
     overflow-x: hidden;
+    border: 1px solid black;
 }
 
 body {
@@ -18,17 +19,18 @@ card {
 
 .navbar a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover {
-    background-color: blue;
-    border-radius: 0.3ex;
+    background-color: #0D6EFD;
+    color: white;
+    border-radius: 2px;
 }
 
 .jumbotron {
     width: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2017/12/11/21/00/bulldog-3013251_1280.jpg");
+    background-image: url("./jumbotron.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
