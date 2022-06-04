@@ -2,15 +2,15 @@ body {
     border: 1px solid black;
     position: relative;
     display: block;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 a:hover {
-    color: yellow;
+    color: red;
 }
 
 .container {
@@ -34,6 +34,6 @@ a:hover {
     color: black;
 }
 
-#logo {
+.footer {
     color: white;
 }
